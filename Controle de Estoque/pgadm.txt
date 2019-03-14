@@ -1,0 +1,9 @@
+CREATE DATABASE frutolandia
+
+CREATE TABLE fruta(
+	codFRT SERIAL NOT NULL PRIMARY KEY,
+    nomeFRT VARCHAR(40),
+    precoFRT FLOAT,
+    qtdFRT INT
+
+);
